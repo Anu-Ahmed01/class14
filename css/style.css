@@ -1,0 +1,247 @@
+/* common section start */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,ol{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.section_info h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+.section_info p b{
+    font-size: 23px;
+}
+/* common section end */
+/* nav section start */
+#menu_section #primary_nav{
+    background-color: #02918c;
+    position: fixed;
+    width: 100%;
+    
+}
+#primary_nav #menu ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 13.5px 25px;
+    display: inline-block;
+    
+}
+/* nav section end */
+/* banner section start */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    padding-top: 200px;
+}
+#banner h1{
+    font-size: 68px;
+    color: #ffff;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#banner h3{
+    font-size: 30px;
+    color: #ffff;
+    font-weight: 800;
+}
+#banner  p{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 800;
+}
+#banner img{
+    margin: 45px 0px;
+}
+#banner .know_more{
+    color: black;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 14px 57px;
+    font-size: 16px;
+    font-weight: 800;
+}
+/* banner section end */
+/* about section start */
+
+#about{
+    margin-bottom: 109px;
+    
+}
+
+#about .about_cards{
+    margin-top: 60px;
+}
+
+#about .about_card{
+    border-right: 1px solid #ccc;
+    padding: 36px 0;
+}
+
+#about .about_card span{
+    font-size: 30px;
+    color: #02918c;
+}
+
+#about .about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 28px 0;
+}
+
+#about .about_card p{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 16.5px;
+}
+
+#about .about_card:last-child {
+    border: none;
+    
+}
+
+/* about section end */
+
+/* service section start */
+#service{
+    background-image:url(./../img/service.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#service .service_box img{
+    padding-top: 64px;
+    padding-bottom: 16px;
+}
+#service .service_box h3{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: bold;
+}
+#service .service_box p{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 26px;
+   
+}
+.padding{
+    padding-bottom: 88px;
+}
+/* service section end */
+
+/* MY work section start */
+#work .container{
+    margin-bottom: 82px;
+}
+#work .work_box {
+    position: relative;
+    
+}
+
+#work .work_box .overlay{
+    background-color: rgba(2, 145, 140, 0.87);
+    position: absolute;
+    inset: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    transform: scale(0);
+    transition: 0.6s;
+    opacity: 0;
+
+
+}
+
+#work .work_box .overlay h3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#work .work_box .overlay p{
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 26px;
+}
+#work .work_box:hover .overlay {
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+/* MY work section End */
+
+/* contact me section start */
+#contact form{
+
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#contact .color{
+    background-color:#0b0b0b;
+    
+}
+#contact .container form{
+    background-color:#0b0b0b;
+    margin-top: 75px;
+}
+#contact .container form input{
+    margin-bottom: 50px;
+    padding: 18px;
+    border: none;
+    border-bottom:1px solid #7e8287;
+    text-align: center;
+    background-color:#0b0b0b;
+    
+}
+#contact .container form input:focus{
+    outline:none;
+    border-bottom-color: rgb(78, 72, 72);
+   
+}
+#contact .container form button{
+    padding: 17px 72px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    border: none;
+    margin: 50px;
+    text-transform: uppercase;
+}
+/* contact me section end */
+
+/* footer section start */
+footer{
+    margin-top: 0px;
+    background-color: #000000;
+    text-align: center;
+    color: #7e8287;
+    font-size: 14px;
+    padding: 30px;
+    
+}
+/* footer section end */
